@@ -7,6 +7,8 @@
   justify-content: center;
 }
 .item {
+  display: flex;
+  justify-content: center;
   width: 100px;
   height: 50px;
 }
@@ -18,15 +20,15 @@
   order: -5;
   background-color: tomato;
 }
-.item:nth-child(3n) {
+.item:nth-child(3) {
   order: -3;
   background-color: purple;
 }
-.item:nth-child(2n) {
+.item:nth-child(2) {
   order: -2;
   background-color: skyblue;
 }
-.item:nth-child(4n) {
+.item:nth-child(4) {
   order: -1;
   background-color: green;
 }
